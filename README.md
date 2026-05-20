@@ -14,7 +14,7 @@
 
 ## 🌌 Overview
 
-**SmartSpend** was originally developed during Aug - Oct 2023, as part of academics Project Exhibition - 1 course in college. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
+**SmartSpend** was originally developed in 2023, as part of academics Project Exhibition - I course in college. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
 
 The design embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive user experience.
 
