@@ -1,56 +1,106 @@
-# Smart Spend
+<div align="center">
+  
+  # ✦ SmartSpend v1.0 ✦
+  
+  *A minimal, elegant, and secure expense-tracking application.*
+  
+  <br />
+</div>
 
-Smart Spend is a Flask expense-tracking web app for recording daily transactions, viewing monthly and historical spending, and generating Plotly charts for category, month-wise, and yearly comparisons.
+## 🌌 Overview
 
-## Features
+**SmartSpend** was originally developed for Project Exhibition - 1. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
 
-- User registration and login
-- Password reset through email
-- Add, edit, and delete expense transactions
-- Current-month expense summary
-- Transaction history filtered by month and year
-- Category pie chart, monthly bar chart, and yearly comparison chart
+The design embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive user experience.
 
-## Project Structure
+---
+
+## ✨ Features
+
+- **Decoupled Architecture**: A robust Python/Flask REST API powering a lightweight Vite frontend.
+- **Immersive Dark UI**: Smooth background orbs, frosted glass components (`backdrop-filter: blur`), and clean data tables.
+- **Visual Insights**: Interactive, animated pie charts powered by Chart.js to break down category spending.
+- **Dynamic Dashboard & History**: Track recent spending instantly, or navigate to a dedicated History view to filter transactions by custom date periods.
+- **Dev Mode**: A quick toggle switch on the login screen to entirely bypass the database and explore the UI instantly.
+- **Complete Auth System**: Secure User Registration and Login with session handling.
+- **Legacy Support**: Original `v0` codebase preserved securely in the `v0Archive/` folder.
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer       | Technology                               |
+|-------------|------------------------------------------|
+| **Frontend**| HTML5, Vanilla JavaScript, CSS3 (Vite)   |
+| **Backend** | Python, Flask, Flask-Cors, PyMySQL       |
+| **Database**| MySQL                                    |
+| **Styling** | Custom Glassmorphism, Google Outfit Font |
+
+---
+
+## 📂 Project Structure
 
 ```text
-.
-├── app.py                  # Flask application and routes
-├── config.py               # Flask/email configuration from environment variables
-├── database/
-│   └── schema.sql          # MySQL database schema
-├── db.example.yaml         # Example local database config
-├── legacy/
-│   └── prototype/          # Older prototype files kept for reference
-├── static/                 # CSS, JavaScript, and image assets
-├── templates/              # Jinja templates
-└── requirements.txt        # Python dependencies
+📦 SmartSpend
+ ┣ 📂 backend/         # Flask REST API Server
+ ┃ ┣ 📜 app.py         # Main API Application
+ ┃ ┣ 📜 config.py      # App Configurations
+ ┃ ┣ 📜 db.yaml        # Database Credentials (Local)
+ ┃ ┗ 📜 requirements.txt
+ ┣ 📂 frontend/        # Vite SPA Frontend
+ ┃ ┣ 📂 src/
+ ┃ ┃ ┣ 📜 main.js      # App Logic and UI Components
+ ┃ ┃ ┗ 📜 style.css    # UI Styling, Glassmorphism, Animations
+ ┃ ┣ 📜 index.html     # App Entry
+ ┃ ┗ 📜 package.json
+ ┗ 📂 v0Archive/       # Original V0 Codebase & Prototype Files
 ```
 
-## Local Setup
+---
 
-1. Create and activate a virtual environment.
-2. Install dependencies:
+## 🚀 Getting Started
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 1. Database Setup
+1. Create a MySQL database and load the schema from `v0Archive/database/schema.sql`.
+2. Ensure your `backend/db.yaml` has the correct `mysql_host`, `mysql_user`, `mysql_password`, and `mysql_db` values.
 
-3. Create a local database config:
+### 2. Run the Backend API
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+```
+> The API will be available on `http://localhost:5000`
 
-   ```bash
-   cp db.example.yaml db.yaml
-   ```
+### 3. Run the Frontend
+In a new terminal:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+> The UI will be available on `http://localhost:5173`
 
-4. Create the MySQL schema from `database/schema.sql`.
-5. Set environment variables from `.env.example`, especially `SECRET_KEY`, `EMAIL_USER`, and `EMAIL_PASS`.
-6. Run the app:
+---
 
-   ```bash
-   flask --app app run --debug
-   ```
+## 🎨 Design Philosophy
 
-## Notes
+SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3b82f6`), and soft micro-animations. It removes any visual clutter to focus purely on what matters: **Your Finances.** 
 
-- `db.yaml` is intentionally ignored because it contains local database credentials.
-- The `legacy/prototype` folder contains an older version of the application and is not part of the main runtime path.
+---
+
+<br />
+
+<div align="center">
+  
+  ---
+  
+  ### ✦ Engineered by Varaxion ✦
+  
+  *[@varaxion on GitHub](https://github.com/varaxion)*
+  
+  ---
+  
+</div>
