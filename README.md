@@ -4,12 +4,17 @@
   
   *A minimal, elegant, and secure expense-tracking application.*
   
+  ![Version](https://img.shields.io/badge/version-1.0-blue.svg?style=for-the-badge)
+  ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+  ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
   <br />
 </div>
 
 ## 🌌 Overview
 
-**SmartSpend** was originally developed for Project Exhibition - 1. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
+**SmartSpend** was originally developed during Aug - Sep 2023, as part of academics Project Exhibition - 1 course in college. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
 
 The design embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive user experience.
 
@@ -99,7 +104,7 @@ SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3
   
   ### ✦ Engineered by Varaxion ✦
   
-  *[@varaxion on GitHub](https://github.com/varaxion)*
+  *[GitHub/@varaxion](https://github.com/varaxion)*
   
   ---
   
