@@ -1,14 +1,7 @@
 import os
 
-DEBUG = True
-# TESTING = True
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'root'
-#MYSQL_PASSWORD = os.getenv('MYSQL_PWD')
-MYSQL_PASSWORD = 'password'
-MYSQL_DB = 'tracker'
-MYSQL_CURSORCLASS = 'DictCursor'
-SECRET_KEY = 'your_secret_key'
+DEBUG = os.environ.get('FLASK_DEBUG', 'True').lower() == 'true'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'change-me-in-local-env')
 MAIL_SERVER = 'smtp.googlemail.com'
 MAIL_PORT = 587
 MAIL_USE_TLS = True

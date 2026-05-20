@@ -8,12 +8,14 @@ __pycache__/
 venv/
 env/
 ENV/
+dsn2098/
 
 # Local environment and secrets
 .env
 .env.*
 !.env.example
 db.yaml
+*.local.yaml
 instance/
 
 # Flask runtime files

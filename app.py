@@ -10,9 +10,17 @@ from flask_mail import Mail, Message
 import plotly.graph_objects as go
 import pymysql
 import yaml
+import os
 
 # Configure MySQL Connection
-ydb=yaml.load(open('db.yaml'), Loader=yaml.SafeLoader)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_CONFIG_PATH = os.environ.get(
+    'SMART_SPEND_DB_CONFIG',
+    os.path.join(BASE_DIR, 'db.yaml')
+)
+
+with open(DB_CONFIG_PATH, 'r') as db_config:
+    ydb = yaml.load(db_config, Loader=yaml.SafeLoader)
 
 db = pymysql.connect(
     host = ydb['mysql_host'],
@@ -511,6 +519,7 @@ def reset_token(token):
 
 # Category Wise Pie Chart For Current Year As Percentage #
 @app.route('/category')
+@is_logged_in
 def createBarCharts():
     cur = db.cursor()
     result = cur.execute(
@@ -533,6 +542,7 @@ def createBarCharts():
 
 # Comparison Between Current and Previous Year #
 @app.route('/yearly_bar')
+@is_logged_in
 def yearlyBar():
     cur = db.cursor()
     result = cur.execute("SELECT Sum(amount) FROM transactions WHERE MONTH(date) = %s  AND YEAR(date) = YEAR(CURRENT_DATE())  AND user_id = %s", ('01', [
@@ -681,6 +691,7 @@ def yearlyBar():
 
 # Current Year Month Wise #
 @app.route('/monthly_bar')
+@is_logged_in
 def monthlyBar():
     cur = db.cursor()
     result = cur.execute(
