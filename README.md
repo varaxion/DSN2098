@@ -13,7 +13,7 @@
 </div>
 
 > [!NOTE]  
-> **SmartSpend** was originally developed in Aug - Sep 2023, as part of academics Project Exhibition - I course in college. It has now been completely transformed into a fully modern web application, shedding its legacy prototype roots!
+> **SmartSpend** was originally developed in 2023, as part of academics Project Exhibition - 1 course in college. It has now been completely transformed into a fully modern web application, shedding its legacy prototype roots!
 
 ## 🌌 Overview
 
@@ -25,7 +25,7 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ## 📸 Screenshots
 
-*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in an `assets/` folder and link them below.)*
+*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in a `docs/screenshots/` folder and link them below.)*
 
 <div align="center">
   <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%">
@@ -62,7 +62,8 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ```text
 📦 SmartSpend
- ┣ 📂 assets/          # (Optional) Store your UI screenshots here
+ ┣ 📜 schema.sql       # MySQL Database Schema
+ ┣ 📂 docs/            # (Optional) Store your UI screenshots in docs/screenshots/
  ┣ 📂 backend/         # Flask REST API Server
  ┃ ┣ 📜 app.py         # Main API Application
  ┃ ┣ 📜 config.py      # App Configurations
@@ -82,7 +83,7 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 ## 🚀 Getting Started
 
 ### 1. Database Setup
-1. Create a MySQL database and load the schema from `v0Archive/database/schema.sql`.
+1. Create a MySQL database and load the schema from the root `schema.sql` file.
 2. Ensure your `backend/db.yaml` has the correct `mysql_host`, `mysql_user`, `mysql_password`, and `mysql_db` values.
 
 ### 2. Run the Backend API
@@ -120,7 +121,9 @@ npm run dev
   
   ---
   
-  ### ✦ Engineered by [Varaxion](https://github.com/varaxion) ✦
+  ### ✦ Contribution ✦
+  
+  *Made by Kavya, Simarpreet Singh, Meet Adlakha, Prathum Bhangadia, Snehansh Nigam*
   
   ---
   
