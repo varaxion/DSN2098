@@ -12,23 +12,38 @@
   <br />
 </div>
 
+> [!NOTE]  
+> **SmartSpend** was originally developed in Aug - Sep 2023, as part of academics Project Exhibition - I course in college. It has now been completely transformed into a fully modern web application, shedding its legacy prototype roots!
+
 ## 🌌 Overview
 
-**SmartSpend** was originally developed in 2023, as part of academics Project Exhibition - I course in college. It has now been transformed into a fully modern web application, shedding its legacy prototype roots. Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
+Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
 
 The design embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive user experience.
 
 ---
 
+## 📸 Screenshots
+
+*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in an `assets/` folder and link them below.)*
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%">
+  <br/>
+  <em>Dashboard View showing the Chart.js breakdown and recent transactions.</em>
+</div>
+
+---
+
 ## ✨ Features
 
-- **Decoupled Architecture**: A robust Python/Flask REST API powering a lightweight Vite frontend.
-- **Immersive Dark UI**: Smooth background orbs, frosted glass components (`backdrop-filter: blur`), and clean data tables.
-- **Visual Insights**: Interactive, animated pie charts powered by Chart.js to break down category spending.
-- **Dynamic Dashboard & History**: Track recent spending instantly, or navigate to a dedicated History view to filter transactions by custom date periods.
-- **Dev Mode**: A quick toggle switch on the login screen to entirely bypass the database and explore the UI instantly.
-- **Complete Auth System**: Secure User Registration and Login with session handling.
-- **Legacy Support**: Original `v0` codebase preserved securely in the `v0Archive/` folder.
+- ⚡ **Decoupled Architecture**: A robust Python/Flask REST API powering a lightweight Vite frontend.
+- 🎨 **Immersive Dark UI**: Smooth background orbs, frosted glass components (`backdrop-filter: blur`), and clean data tables.
+- 📊 **Visual Insights**: Interactive, animated pie charts powered by Chart.js to break down category spending.
+- 🕒 **Dynamic Dashboard & History**: Track recent spending instantly, or navigate to a dedicated History view to filter transactions by custom date periods.
+- 🛠️ **Dev Mode**: A quick toggle switch on the login screen to entirely bypass the database and explore the UI instantly.
+- 🔒 **Complete Auth System**: Secure User Registration and Login with session handling.
+- 🏛️ **Legacy Support**: Original `v0` codebase preserved securely in the `v0Archive/` folder.
 
 ---
 
@@ -47,6 +62,7 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ```text
 📦 SmartSpend
+ ┣ 📂 assets/          # (Optional) Store your UI screenshots here
  ┣ 📂 backend/         # Flask REST API Server
  ┃ ┣ 📜 app.py         # Main API Application
  ┃ ┣ 📜 config.py      # App Configurations
@@ -77,6 +93,7 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python app.py
 ```
+> [!TIP]
 > The API will be available on `http://localhost:5000`
 
 ### 3. Run the Frontend
@@ -86,13 +103,14 @@ cd frontend
 npm install
 npm run dev
 ```
+> [!TIP]
 > The UI will be available on `http://localhost:5173`
 
 ---
 
 ## 🎨 Design Philosophy
 
-SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3b82f6`), and soft micro-animations. It removes any visual clutter to focus purely on what matters: **Your Finances.** 
+> SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3b82f6`), and soft micro-animations. It removes any visual clutter to focus purely on what matters: **Your Finances.** 
 
 ---
 
