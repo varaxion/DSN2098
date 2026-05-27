@@ -4,26 +4,31 @@
   
   *A minimal, elegant, and secure expense-tracking application.*
   
+  <br />
+
   ![Version](https://img.shields.io/badge/version-1.0-blue.svg?style=for-the-badge)
   ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
   ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-  <br />
 </div>
 
+<br />
+
 > [!NOTE]  
-> **SmartSpend** was originally developed in 2023, as part of academics Project Exhibition - 1 course in college. It has now been completely transformed into a fully modern web application, shedding its legacy prototype roots!
-
-## 🌌 Overview
-
-Version 1.0 features a completely decoupled architecture with a blazing fast REST API backend and a beautifully crafted Vanilla JS SPA frontend. 
-
-The design embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive user experience.
+> **SmartSpend** was originally developed in 2023, as part of the academic curriculum for the Project Exhibition - I course at **VIT Bhopal University**. It has now been completely transformed into a fully modern web application, shedding its legacy prototype roots!
 
 ---
 
-## 📸 Screenshots
+## 🌌 Overview
+
+**SmartSpend v1.0** is a comprehensive expense-tracking application built to provide unparalleled financial visibility. It leaves behind the legacy monolithic structure in favor of a modern, decoupled architecture. Driven by a blazing fast Python REST API backend and a beautifully crafted Vanilla JavaScript Single Page Application (SPA) frontend, it delivers a seamless user experience.
+
+The design philosophy embraces **glassmorphism** and dynamic **gradients** within a rich Dark Mode environment, offering a premium and immersive visual aesthetic that makes managing finances a joy.
+
+---
+
+## 📸 Application Gallery
 
 <div align="center">
   <img src="screenshots/1-authentication-login.png" alt="Login Page" width="48%">
@@ -38,91 +43,90 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-- ⚡ **Decoupled Architecture**: A robust Python/Flask REST API powering a lightweight Vite frontend.
-- 🎨 **Immersive Dark UI**: Smooth background orbs, frosted glass components (`backdrop-filter: blur`), and clean data tables.
-- 📊 **Visual Insights**: Interactive, animated pie charts powered by Chart.js to break down category spending.
-- 🕒 **Dynamic Dashboard & History**: Track recent spending instantly, or navigate to a dedicated History view to filter transactions by custom date periods.
-- 🛠️ **Dev Mode**: A quick toggle switch on the login screen to entirely bypass the database and explore the UI instantly.
-- 🔒 **Complete Auth System**: Secure User Registration and Login with session handling.
-- 🏛️ **Legacy Support**: Original `v0` codebase preserved securely in the `v0Archive/` folder.
+* ⚡ **Decoupled Architecture**: A robust Python/Flask REST API cleanly separated from a lightweight Vite-powered frontend.
+* 🎨 **Immersive Dark UI**: Designed with smooth background orbs, frosted glass components (`backdrop-filter: blur`), and clean, responsive data tables.
+* 📊 **Visual Insights**: Interactive, animated doughnut charts powered by `Chart.js` that aggregate and visualize category spending in real-time.
+* 🕒 **Dynamic Dashboard & History**: Instantly track your most recent expenditures on the dashboard, or navigate to a dedicated History view to filter transactions via custom date-range pickers.
+* 🛠️ **Developer Mode**: A seamless toggle switch built right into the login screen that entirely bypasses the database—perfect for UI exploration and rapid local testing.
+* 🔒 **Complete Auth System**: End-to-end secure user registration and login, featuring robust session handling.
+* 🏛️ **Legacy Preservation**: The original `v0` prototype codebase and academic documents are preserved securely in the `v0Archive/` directory.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Layer       | Technology                               |
-|-------------|------------------------------------------|
-| **Frontend**| HTML5, Vanilla JavaScript, CSS3 (Vite)   |
-| **Backend** | Python, Flask, Flask-Cors, PyMySQL       |
-| **Database**| MySQL                                    |
-| **Styling** | Custom Glassmorphism, Google Outfit Font |
+| Layer | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend** | HTML5, Vanilla JS, CSS3, Vite | A lightning-fast SPA built without bulky frameworks. |
+| **Backend** | Python, Flask, Flask-Cors | A stateless REST API handling all business logic. |
+| **Database** | MySQL, PyMySQL | Relational database mapping for users and transactions. |
+| **Styling** | Custom Glassmorphism, Google Fonts | Tailored CSS relying on the *Outfit* font family. |
+| **Visuals** | Chart.js | Canvas-based rendering for dynamic financial charts. |
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Architecture
 
 ```text
 📦 SmartSpend
- ┣ 📜 schema.sql       # MySQL Database Schema
- ┣ 📂 screenshots/     # Store your UI screenshots here
+ ┣ 📜 schema.sql       # Root MySQL Database Schema
+ ┣ 📂 screenshots/     # High-resolution UI showcase images
  ┣ 📂 backend/         # Flask REST API Server
- ┃ ┣ 📜 app.py         # Main API Application
- ┃ ┣ 📜 config.py      # App Configurations
+ ┃ ┣ 📜 app.py         # Main API Application & Routing
+ ┃ ┣ 📜 config.py      # Environment Configurations
  ┃ ┣ 📜 db.yaml        # Database Credentials (Local)
  ┃ ┗ 📜 requirements.txt
- ┣ 📂 frontend/        # Vite SPA Frontend
+ ┣ 📂 frontend/        # Vite SPA Frontend Environment
  ┃ ┣ 📂 src/
- ┃ ┃ ┣ 📜 main.js      # App Logic and UI Components
- ┃ ┃ ┗ 📜 style.css    # UI Styling, Glassmorphism, Animations
- ┃ ┣ 📜 index.html     # App Entry
+ ┃ ┃ ┣ 📜 main.js      # Core Application Logic, State, and UI
+ ┃ ┃ ┗ 📜 style.css    # Global UI Styling and Animations
+ ┃ ┣ 📜 index.html     # Application Entry Point
  ┃ ┗ 📜 package.json
  ┗ 📂 v0Archive/       # Original V0 Codebase & Prototype Files
+   ┣ 📂 docs/          # Original academic syllabus and reports
+   ┗ 📂 prototype/     # Legacy monolithic Flask application
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Database Setup
-1. Create a MySQL database and load the schema from the root `schema.sql` file.
-2. Ensure your `backend/db.yaml` has the correct `mysql_host`, `mysql_user`, `mysql_password`, and `mysql_db` values.
+Follow these instructions to get a local copy of SmartSpend running on your machine.
 
-### 2. Run the Backend API
+### 1. Database Initialization
+1. Ensure you have a local MySQL server running.
+2. Load the database schema by importing the `schema.sql` file located in the root directory.
+3. Verify that your `backend/db.yaml` contains the correct `mysql_host`, `mysql_user`, `mysql_password`, and `mysql_db` connection values.
+
+### 2. Launch the Backend Server
+Open a terminal and navigate to the backend directory:
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate  # Windows users: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
 > [!TIP]
-> The API will be available on `http://localhost:5000`
+> The REST API will initialize and actively listen on `http://localhost:5000`
 
-### 3. Run the Frontend
-In a new terminal:
+### 3. Launch the Frontend Application
+Open a new, separate terminal and navigate to the frontend directory:
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 > [!TIP]
-> The UI will be available on `http://localhost:5173`
+> Vite will compile the assets and the application UI will be accessible at `http://localhost:5173`
 
 ---
 
-## 🎨 Design Philosophy
+## 🎓 Academic Origins & Contribution
 
-> SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3b82f6`), and soft micro-animations. It removes any visual clutter to focus purely on what matters: **Your Finances.** 
-
----
-
----
-
-## 🎓 Contribution (Team 251)
-
-*Developed as part of the academic curriculum at **VIT Bhopal University**.*
+This repository originated as an academic project for **VIT Bhopal University** (Team 251). The original prototype was a collaborative effort by the following team members:
 
 | Name | Registration No. | GitHub Profile |
 | :--- | :---: | :--- |
@@ -131,3 +135,13 @@ npm run dev
 | **Meet Adlakha** | `22BCE10376` | [@Meet0124](https://github.com/Meet0124) |
 | **Prathum Bhangadia** | `22BCE10862` | [@prathum08](https://github.com/prathum08) |
 | **Snehansh Nigam** | `22BCE11544` | [@snehansh12](https://github.com/snehansh12) |
+
+<br/>
+
+> [!NOTE]
+> **V1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by **Kavya** ([@varaxion](https://github.com/varaxion)).
+
+<br/>
+<div align="center">
+  <em>SmartSpend • Reimagined for the modern web.</em>
+</div>
