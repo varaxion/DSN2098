@@ -124,9 +124,10 @@ npm run dev
   
   ---
   
-  ### ✦ Contribution ✦
+  ### ✦ Contribution (Team 251) ✦
   
-  *Made by [Kavya](https://github.com/varaxion), [Simarpreet Singh](https://github.com/Simarpreet-2607), [Meet Adlakha](https://github.com/Meet0124), [Prathum Bhangadia](https://github.com/prathum08), and [Snehansh Nigam](https://github.com/snehansh12)*
+  **[Kavya](https://github.com/varaxion)** (22BCE10385) &nbsp;|&nbsp; **[Simarpreet Singh](https://github.com/Simarpreet-2607)** (22BCE10914) &nbsp;|&nbsp; **[Meet Adlakha](https://github.com/Meet0124)** (22BCE10376) <br>
+  **[Prathum Bhangadia](https://github.com/prathum08)** (22BCE10862) &nbsp;|&nbsp; **[Snehansh Nigam](https://github.com/snehansh12)** (22BCE11544)
   
   ---
   
