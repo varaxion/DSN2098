@@ -128,13 +128,13 @@ npm run dev
 
 This repository originated as an academic project for **VIT Bhopal University** (Team 251). The original prototype was a collaborative effort by the following team members:
 
-| Name | Registration No. | GitHub Profile |
-| :--- | :---: | :--- |
-| **Kavya** | `22BCE10385` | [@varaxion](https://github.com/varaxion) |
-| **Simarpreet Singh** | `22BCE10914` | [@Simarpreet-2607](https://github.com/Simarpreet-2607) |
-| **Meet Adlakha** | `22BCE10376` | [@Meet0124](https://github.com/Meet0124) |
-| **Prathum Bhangadia** | `22BCE10862` | [@prathum08](https://github.com/prathum08) |
-| **Snehansh Nigam** | `22BCE11544` | [@snehansh12](https://github.com/snehansh12) |
+| Name | Registration No. |
+| :--- | :---: |
+| [**Kavya**](https://github.com/varaxion) | `22BCE10385` |
+| [**Simarpreet Singh**](https://github.com/Simarpreet-2607) | `22BCE10914` |
+| [**Meet Adlakha**](https://github.com/Meet0124) | `22BCE10376` |
+| [**Prathum Bhangadia**](https://github.com/prathum08) | `22BCE10862` |
+| [**Snehansh Nigam**](https://github.com/snehansh12) | `22BCE11544` |
 
 <br/>
 
