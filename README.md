@@ -25,12 +25,15 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ## 📸 Screenshots
 
-*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in the `screenshots/` folder and link them below.)*
-
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%">
-  <br/>
-  <em>Dashboard View showing the Chart.js breakdown and recent transactions.</em>
+  <img src="screenshots/1-authentication-login.png" alt="Login Page" width="48%">
+  <img src="screenshots/2-authentication-signup.png" alt="Sign Up Page" width="48%">
+  <br/><br/>
+  <img src="screenshots/3-dashboard-empty.png" alt="Empty Dashboard" width="48%">
+  <img src="screenshots/4-history-empty.png" alt="Empty History" width="48%">
+  <br/><br/>
+  <img src="screenshots/5-dashboard-populated.png" alt="Dashboard with Data" width="48%">
+  <img src="screenshots/6-history-populated.png" alt="History with Data" width="48%">
 </div>
 
 ---
