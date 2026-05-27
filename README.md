@@ -123,7 +123,7 @@ npm run dev
   
   ### ✦ Contribution ✦
   
-  *Made with ❤️ by [Kavya](https://github.com/varaxion), [Simarpreet Singh](https://github.com/Simarpreet-2607), [Meet Adlakha](https://github.com/Meet0124), [Prathum Bhangadia](https://github.com/prathum08), and [Snehansh Nigam](https://github.com/snehansh12)*
+  *Made by [Kavya](https://github.com/varaxion), [Simarpreet Singh](https://github.com/Simarpreet-2607), [Meet Adlakha](https://github.com/Meet0124), [Prathum Bhangadia](https://github.com/prathum08), and [Snehansh Nigam](https://github.com/snehansh12)*
   
   ---
   
