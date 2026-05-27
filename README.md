@@ -118,17 +118,16 @@ npm run dev
 
 ---
 
-<br />
+---
 
-<div align="center">
-  
-  ---
-  
-  ### ✦ Contribution (Team 251) ✦
-  
-  **[Kavya](https://github.com/varaxion)** (22BCE10385) &nbsp;|&nbsp; **[Simarpreet Singh](https://github.com/Simarpreet-2607)** (22BCE10914) &nbsp;|&nbsp; **[Meet Adlakha](https://github.com/Meet0124)** (22BCE10376) <br>
-  **[Prathum Bhangadia](https://github.com/prathum08)** (22BCE10862) &nbsp;|&nbsp; **[Snehansh Nigam](https://github.com/snehansh12)** (22BCE11544)
-  
-  ---
-  
-</div>
+## 🎓 Contribution (Team 251)
+
+*Developed as part of the academic curriculum at **VIT Bhopal University**.*
+
+| Name | Registration No. | GitHub Profile |
+| :--- | :---: | :--- |
+| **Kavya** | `22BCE10385` | [@varaxion](https://github.com/varaxion) |
+| **Simarpreet Singh** | `22BCE10914` | [@Simarpreet-2607](https://github.com/Simarpreet-2607) |
+| **Meet Adlakha** | `22BCE10376` | [@Meet0124](https://github.com/Meet0124) |
+| **Prathum Bhangadia** | `22BCE10862` | [@prathum08](https://github.com/prathum08) |
+| **Snehansh Nigam** | `22BCE11544` | [@snehansh12](https://github.com/snehansh12) |
