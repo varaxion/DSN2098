@@ -25,7 +25,7 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 
 ## 📸 Screenshots
 
-*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in a `docs/screenshots/` folder and link them below.)*
+*(Add your UI screenshots here to show off the beautiful new design! You can place your image files in the `screenshots/` folder and link them below.)*
 
 <div align="center">
   <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%">
@@ -63,7 +63,7 @@ The design embraces **glassmorphism** and dynamic **gradients** within a rich Da
 ```text
 📦 SmartSpend
  ┣ 📜 schema.sql       # MySQL Database Schema
- ┣ 📂 docs/            # (Optional) Store your UI screenshots in docs/screenshots/
+ ┣ 📂 screenshots/     # Store your UI screenshots here
  ┣ 📂 backend/         # Flask REST API Server
  ┃ ┣ 📜 app.py         # Main API Application
  ┃ ┣ 📜 config.py      # App Configurations
