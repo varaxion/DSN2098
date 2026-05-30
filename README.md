@@ -11,6 +11,7 @@
   ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
   ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+  ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 </div>
 
@@ -141,6 +142,12 @@ This repository originated as an academic project for **VIT Bhopal University** 
 
 > [!NOTE]
 > **v1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by Kavya.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <br/>
 <div align="center">
